@@ -1,0 +1,10 @@
+
+.landing-title {
+  @extend %landing-font;
+  color: $text_default;
+}
+
+.title {
+  @extend %title-font;
+  color: $text_default;
+}

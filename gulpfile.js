@@ -43,7 +43,7 @@ gulp.task('sass', function() {
 
 gulp.task('sass:dev', function() {
   return gulp.src("scss/**/*.scss")
-    .pipe(sass.sync).on('error', sass.logError())
+    .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe(gulp.dest("css"))
     .pipe(browserSync.stream());

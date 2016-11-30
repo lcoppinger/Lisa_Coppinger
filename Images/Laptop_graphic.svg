@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="635px" height="586px" viewBox="0 0 635 586" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Laptop graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M557.095834,2.27678193 C557.095834,2.27678193 558.729558,3.24857699 559.01598,5.28148176 C559.302402,7.31438652 559.528062,7.88583855 558.82381,12.7429845 C558.119557,17.6001304 505.064926,268.938184 505.064926,268.938184 L501.867668,268.938184 L557.095834,2.27678193 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="57.4238354" height="266.661402" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <linearGradient x1="88.6093785%" y1="3.84699546%" x2="50%" y2="60.6852667%" id="linearGradient-3">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#B5B5B6" offset="37.1788924%"></stop>
+            <stop stop-color="#545557" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.9820195%" y1="50%" x2="94.4684172%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#717C84" offset="0%"></stop>
+            <stop stop-color="#5F646E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.798701%" y1="23.0516938%" x2="45.7987%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#717C84" offset="0%"></stop>
+            <stop stop-color="#4C5259" offset="100%"></stop>
+        </linearGradient>
+        <path d="M273,283 C273,283 487.270171,284.442679 493.874858,284.442679 C490.122785,287.921799 484.336375,289.329786 480.741685,289.674845 C476.670701,289.674845 273,291 273,291 L273,283 Z" id="path-6"></path>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="220.874858" height="8" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <linearGradient x1="98.3864546%" y1="50%" x2="82.7406083%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#868C92" offset="0%"></stop>
+            <stop stop-color="#909BA1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.3683379%" y1="50%" x2="51.3683394%" y2="0%" id="linearGradient-9">
+            <stop stop-color="#72787D" offset="0%"></stop>
+            <stop stop-color="#909BA1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.44460753,283 L273,283 L273,291.131934 L19.2420809,288.97112 C19.2420809,288.97112 9.28961395,288.600211 5.01056617,286.135693 C0.731518402,283.671175 1.44460753,283 1.44460753,283 Z" id="path-10"></path>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="271.599953" height="8.13193406" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <linearGradient x1="93.7614172%" y1="50%" x2="50%" y2="30.0564323%" id="linearGradient-12">
+            <stop stop-color="#AAADB5" offset="0%"></stop>
+            <stop stop-color="#DCDDE3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-13" x="352" y="276" width="6" height="4" rx="2"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6" height="4" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M284.130518,42.436956 C286.678509,41.6534243 546.173667,0.184907582 551.287339,0.184907582 C556.401012,0.184907582 558.416407,2.00150916 557.898708,6.30930373 C557.381009,10.6170983 502.762382,269 502.762382,269 L219.023369,269.876219 C219.023369,269.876219 270.303754,61.1624165 272.361715,53.9748435 C274.419675,46.7872704 281.582527,43.2204876 284.130518,42.436956 Z" id="path-15"></path>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="338.954099" height="269.691311" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <linearGradient x1="28.0544072%" y1="50%" x2="75.7050449%" y2="50%" id="linearGradient-17">
+            <stop stop-color="#D7DFE7" offset="0%"></stop>
+            <stop stop-color="#BABFC3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-18">
+            <stop stop-color="#D7DFE7" offset="0%"></stop>
+            <stop stop-color="#4D4E52" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-19">
+            <stop stop-color="#BABFC3" offset="0%"></stop>
+            <stop stop-color="#4D4E52" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-20">
+            <stop stop-color="#BCBEC6" offset="0%"></stop>
+            <stop stop-color="#4D4E52" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="35.4159938%" x2="50%" y2="100%" id="linearGradient-21">
+            <stop stop-color="#C2C6CC" offset="0%"></stop>
+            <stop stop-color="#4D5357" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.7948545%" y1="50%" x2="0%" y2="50%" id="linearGradient-22">
+            <stop stop-color="#DCDDE3" offset="0%"></stop>
+            <stop stop-color="#4D4E52" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-23" x="363" y="276" width="122" height="4" rx="2"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="122" height="4" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <linearGradient x1="27.1690318%" y1="18.9871617%" x2="50%" y2="100%" id="linearGradient-25">
+            <stop stop-color="#C2C6CC" offset="0%"></stop>
+            <stop stop-color="#4D5357" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-26" x="230" y="275" width="13" height="2"></rect>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="2" fill="white">
+            <use xlink:href="#path-26"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-630.000000, -24.000000)">
+            <g id="Landing">
+                <g id="Laptop-graphic" transform="translate(630.000000, 17.000000)">
+                    <g id="Laptop-text" transform="translate(384.552038, 178.263275) rotate(-4.000000) translate(-384.552038, -178.263275) translate(121.552038, 18.263275)" font-weight="normal" font-family="Lato-Italic, Lato" font-size="10" font-style="italic">
+                        <text id="cd-../" transform="translate(439.951281, 256.000000) rotate(-2.000000) translate(-439.951281, -256.000000) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="429.951281" y="260">cd ../</tspan>
+                        </text>
+                        <text id="if-($(this).length()" transform="translate(380.076864, 66.512169) rotate(-6.000000) translate(-380.076864, -66.512169) " fill="#800080">
+                            <tspan x="331.576864" y="70.5121688">if ($(this).length() &lt; 2 {};</tspan>
+                        </text>
+                        <text id="$document.ready(funt" transform="translate(249.992726, 20.140805) rotate(-7.000000) translate(-249.992726, -20.140805) " fill="#CC1100">
+                            <tspan x="186.992726" y="24.1408049">$document.ready(funtion(){});</tspan>
+                        </text>
+                        <text id="class-TestForm-exten" transform="translate(77.627539, 14.140805) rotate(-6.000000) translate(-77.627539, -14.140805) " fill="#008000">
+                            <tspan x="0.627538979" y="18.1408049">class TestForm extends Component {}</tspan>
+                        </text>
+                        <text id="&lt;meta-name=“viewport" transform="translate(186.731103, 78.512169) rotate(-5.000000) translate(-186.731103, -78.512169) " fill="#0072B4">
+                            <tspan x="52.2149136" y="76.5121688">&lt;meta name=“viewport” content=“width=device-width, initial-</tspan>
+                            <tspan x="52.2149136" y="88.5121688">scale=1”&gt;</tspan>
+                        </text>
+                        <text id="$primary_button—colo" transform="translate(439.750855, 90.720973) rotate(-5.000000) translate(-439.750855, -90.720973) " fill="#FF5B85">
+                            <tspan x="368.250855" y="94.7209726">$primary_button—color: #ff5b85; </tspan>
+                        </text>
+                        <text id="ng-App=-MyApp" transform="translate(344.515378, 128.473895) rotate(-4.500000) translate(-344.515378, -128.473895) " fill="#FF7B00">
+                            <tspan x="310.015378" y="132.473895">ng-App= MyApp</tspan>
+                        </text>
+                        <text id=".body-{@extend-%body" transform="translate(456.209892, 18.708305) rotate(-7.000000) translate(-456.209892, -18.708305) " fill="#FFAA00">
+                            <tspan x="387.209892" y="22.7083049">.body {@extend %bodyCopyText;}</tspan>
+                        </text>
+                        <text id="function-search_quer" transform="translate(206.353416, 118.353052) rotate(-4.500000) translate(-206.353416, -118.353052) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="85.8534163" y="122.353052">function search_query(index) { $.get(request, function(data) {}}</tspan>
+                        </text>
+                        <text id="@media(min-width:-ma" transform="translate(201.292171, 158.753930) rotate(-4.000000) translate(-201.292171, -158.753930) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="103.792171" y="162.75393">@media(min-width: map-get($breakpoints, md)) {}</tspan>
+                        </text>
+                        <text id="git-pull-master" transform="translate(461.303042, 132.356377) rotate(-4.000000) translate(-461.303042, -132.356377) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="433.303042" y="136.356377">git pull master</tspan>
+                        </text>
+                        <text id="gulp.watch(&quot;dist/scs" transform="translate(331.215382, 170.108070) rotate(-4.000000) translate(-331.215382, -170.108070) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="216.715382" y="174.10807">gulp.watch("dist/scss/**/*.scss", gulpsync.sync(['sass:dev']));</tspan>
+                        </text>
+                        <text id="ls--la" transform="translate(473.123326, 182.648071) rotate(-4.000000) translate(-473.123326, -182.648071) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="463.623326" y="186.648071">ls -la</tspan>
+                        </text>
+                        <text id="ng-controller=&quot;MainC" transform="translate(186.731103, 205.008070) rotate(-3.000000) translate(-186.731103, -205.008070) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="126.231103" y="209.00807">ng-controller="MainController"</tspan>
+                        </text>
+                        <text id="import-{-createStore" transform="translate(414.899525, 203.575570) rotate(-3.500000) translate(-414.899525, -203.575570) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="348.399525" y="207.57557">import { createStore } from 'redux';</tspan>
+                        </text>
+                        <text id="npm-install---save-d" transform="translate(196.000000, 223.445950) rotate(-3.000000) translate(-196.000000, -223.445950) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="130" y="227.44595">npm install --save-dev gulp-install</tspan>
+                        </text>
+                        <text id="brew-install-maven" transform="translate(179.387269, 262.548586) rotate(-2.000000) translate(-179.387269, -262.548586) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="142.387269" y="266.548586">brew install maven</tspan>
+                        </text>
+                        <text id="$(window).load(funct" transform="translate(329.992991, 193.055498) rotate(-3.000000) translate(-329.992991, -193.055498) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="272.992991" y="197.055498">  $(window).load(function(){});</tspan>
+                        </text>
+                        <text id="&lt;div-class=“customCl" transform="translate(353.847141, 225.774442) rotate(-3.000000) translate(-353.847141, -225.774442) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="233.347141" y="229.774442">&lt;div class=“customClass col-md-6 col-sm-4 col-xs-12&gt;&lt;/div&gt;</tspan>
+                        </text>
+                        <text id="paddingVertical:-(Pl" transform="translate(233.198266, 244.072702) rotate(-2.500000) translate(-233.198266, -244.072702) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="139.698266" y="248.072702">paddingVertical: (Platform.OS === 'ios') ? 20 : 0,</tspan>
+                        </text>
+                        <text id="color:-$text_color;" transform="translate(427.727928, 238.975278) rotate(-2.500000) translate(-427.727928, -238.975278) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="392.227928" y="242.975278">color: $text_color;</tspan>
+                        </text>
+                        <text id="&lt;?php-print-$fields[" transform="translate(344.721590, 260.017417) rotate(-2.000000) translate(-344.721590, -260.017417) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="266.22159" y="264.017417"> &lt;?php print $fields['body']-&gt;content; ?&gt;</tspan>
+                        </text>
+                        <text id="for-(var-i-=-0;-i-&lt;" transform="translate(219.553591, 274.465358) rotate(-2.000000) translate(-219.553591, -274.465358) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="143.053591" y="278.465358">for (var i = 0; i &lt; data.items.length; i++) </tspan>
+                        </text>
+                        <text id="&amp;:-ms-input-placehol" transform="translate(388.451281, 273.395129) rotate(-2.000000) translate(-388.451281, -273.395129) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="336.951281" y="277.395129">&amp;:-ms-input-placeholder {}</tspan>
+                        </text>
+                        <text id="ng-repeat=&quot;product-i" transform="translate(205.546283, 286.674627) rotate(-1.500000) translate(-205.546283, -286.674627) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="142.046283" y="290.674627">ng-repeat="product in products"</tspan>
+                        </text>
+                        <text id="store.subscribe(()-=" transform="translate(245.538975, 297.883896) rotate(-1.500000) translate(-245.538975, -297.883896) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="143.038975" y="301.883896">store.subscribe(() =&gt; {this.setState(store.getState());});</tspan>
+                        </text>
+                        <text id="React.PropTypes.stri" transform="translate(365.473205, 285.767321) rotate(-1.500000) translate(-365.473205, -285.767321) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="298.973205" y="289.767321">React.PropTypes.string.isRequired,</tspan>
+                        </text>
+                        <text id="git-checkout" transform="translate(390.000000, 296.000000) rotate(-1.500000) translate(-390.000000, -296.000000) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="366" y="300">git checkout</tspan>
+                        </text>
+                        <text id="React.PropTypes.stri" transform="translate(211.526795, 312.232679) rotate(-1.000000) translate(-211.526795, -312.232679) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="145.026795" y="316.232679">React.PropTypes.string.isRequired,</tspan>
+                        </text>
+                        <text id="return-function(call" transform="translate(351.500000, 311.000000) rotate(-1.000000) translate(-351.500000, -311.000000) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="291" y="315">return function(callback, ms){});</tspan>
+                        </text>
+                    </g>
+                    <g id="Laptop" transform="translate(0.000000, 301.000000)">
+                        <use id="Rectangle-3" stroke="#939496" mask="url(#mask-2)" stroke-width="2" fill="#E6E5EE" xlink:href="#path-1"></use>
+                        <polygon id="Rectangle-14" fill="url(#linearGradient-3)" points="508.353198 238 510.56483 238 504.019556 269.123065 501.966631 268.88672"></polygon>
+                        <path d="M552.721364,5.76413219 L554.048314,5.23663865 L558.325367,23.9947034 C558.325367,23.9947034 558.417588,27.5192696 558.325367,28.845672 C558.233145,30.1720745 557.896059,30.1693357 557.896059,30.1693357 L552.721364,5.76413219 Z" id="Rectangle-14" fill="url(#linearGradient-3)" transform="translate(555.543859, 17.702987) scale(1, -1) translate(-555.543859, -17.702987) "></path>
+                        <use id="Rectangle-12" stroke="url(#linearGradient-5)" mask="url(#mask-7)" stroke-width="2" fill="url(#linearGradient-4)" xlink:href="#path-6"></use>
+                        <use id="Rectangle-11" stroke="url(#linearGradient-9)" mask="url(#mask-11)" stroke-width="2" fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
+                        <path d="M273,269.194596 C273,269.194596 501.065197,268.364038 505.335235,268.364038 C505.335235,273.797569 503.54244,276.100923 501.537767,278.934705 C499.533093,281.768488 493.485449,284.884424 493.485449,284.884424 L273,283.086795 L273,269.194596 Z" id="Rectangle-10" fill="url(#linearGradient-12)"></path>
+                        <use id="Rectangle-8" stroke="#01050A" mask="url(#mask-14)" stroke-width="2" fill="#01050A" xlink:href="#path-13"></use>
+                        <use id="Rectangle-2" stroke="#2E3031" mask="url(#mask-16)" stroke-width="2" fill="#1A1B1E" xlink:href="#path-15"></use>
+                        <polygon id="Rectangle-9" fill="#FFFFFF" points="281 58 542.880032 19.3798643 491 259 233.048991 259"></polygon>
+                        <path d="M1,271 L273,269.570922 L273,283 C273,283 1.50283396,284.341404 1,283 C0.49716604,281.658596 1,271 1,271 Z" id="Rectangle-4" fill="url(#linearGradient-17)"></path>
+                        <rect id="Rectangle-13" fill="url(#linearGradient-18)" x="1" y="271" width="28" height="12"></rect>
+                        <polygon id="Rectangle-13" fill="url(#linearGradient-19)" transform="translate(259.000000, 276.211655) scale(-1, 1) translate(-259.000000, -276.211655) " points="245 269.423309 273 269.800783 273 283 245 283"></polygon>
+                        <path d="M460.636293,269 C467.716174,269 505,269 505,269 L505,284.385753 L472.700938,284.876674 C472.700938,284.876674 467.242281,282.182873 464.667096,279.224333 C462.091912,276.265794 460.636293,273.443062 460.636293,269 Z" id="Rectangle-13" fill="url(#linearGradient-20)" transform="translate(482.818147, 276.938337) scale(-1, 1) translate(-482.818147, -276.938337) "></path>
+                        <path d="M99,270.569583 L134,270.302172 C134,270.302172 134.416232,275.568286 133.747602,276.108336 L99,276.108336 C98.5408535,275.621806 99,270.569583 99,270.569583 Z" id="Rectangle-5" fill="url(#linearGradient-21)"></path>
+                        <polygon id="Rectangle-13" fill="url(#linearGradient-22)" points="273 269.56048 301 269.56048 301 283.034921 273 283.034921"></polygon>
+                        <use id="Rectangle-7" stroke="#01050A" mask="url(#mask-24)" stroke-width="2" fill="#01050A" xlink:href="#path-23"></use>
+                        <path d="M100.112083,269.32344 L103.307101,273.154826 C103.307101,273.154826 105.979637,276.718669 105.497152,276.986213 C105.014667,277.253757 100.259402,276.986213 100.112083,276.986213 C100.040609,276.31585 100.112083,269.32344 100.112083,269.32344 Z" id="Rectangle-5" fill="url(#linearGradient-25)" transform="translate(102.817868, 273.214281) rotate(90.000000) translate(-102.817868, -273.214281) "></path>
+                        <use id="Rectangle-6" stroke="#3D4048" mask="url(#mask-27)" stroke-width="2" fill="#3D4048" xlink:href="#path-26"></use>
+                    </g>
+                    <g id="Laptop-text" transform="translate(237.000000, 333.000000)" font-weight="normal" font-family="Lato-Italic, Lato" font-size="10" font-style="italic">
+                        <text id="cd-../" transform="translate(255.000000, 158.000000) rotate(-2.000000) translate(-255.000000, -158.000000) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="245" y="162">cd ../</tspan>
+                        </text>
+                        <text id="if-($(this).length()" transform="translate(243.869700, 28.879969) rotate(-6.000000) translate(-243.869700, -28.879969) " fill="#800080">
+                            <tspan x="195.3697" y="32.8799691">if ($(this).length() &lt; 2 {};</tspan>
+                        </text>
+                        <text id="$document.ready(funt" transform="translate(104.000000, 31.000000) rotate(-7.000000) translate(-104.000000, -31.000000) " fill="#CC1100">
+                            <tspan x="41" y="35">$document.ready(funtion(){});</tspan>
+                        </text>
+                        <text id="class-TestForm-exten" transform="translate(116.157270, 42.339216) rotate(-6.000000) translate(-116.157270, -42.339216) " fill="#008000">
+                            <tspan x="39.1572697" y="46.3392164">class TestForm extends Component {}</tspan>
+                        </text>
+                        <text id="&lt;meta-name=“viewport" transform="translate(170.040282, 56.233594) rotate(-5.000000) translate(-170.040282, -56.233594) " fill="#0072B4">
+                            <tspan x="35.5240928" y="54.233594">&lt;meta name=“viewport” content=“width=device-width, initial-</tspan>
+                            <tspan x="35.5240928" y="66.233594">scale=1”&gt;</tspan>
+                        </text>
+                        <text id="$primary_button—colo" transform="translate(149.698266, 64.668935) rotate(-5.000000) translate(-149.698266, -64.668935) " fill="#FF5B85">
+                            <tspan x="78.1982659" y="68.668935">$primary_button—color: #ff5b85; </tspan>
+                        </text>
+                        <text id="ng-App=-MyApp" transform="translate(254.938176, 55.573363) rotate(-4.500000) translate(-254.938176, -55.573363) " fill="#FF7B00">
+                            <tspan x="220.438176" y="59.5733634">ng-App= MyApp</tspan>
+                        </text>
+                        <text id=".body-{@extend-%body" transform="translate(233.000000, 15.000000) rotate(-7.000000) translate(-233.000000, -15.000000) " fill="#FFAA00">
+                            <tspan x="164" y="19">.body {@extend %bodyCopyText;}</tspan>
+                        </text>
+                        <text id="function-search_quer" transform="translate(152.500000, 77.000000) rotate(-4.500000) translate(-152.500000, -77.000000) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="32" y="81">function search_query(index) { $.get(request, function(data) {}}</tspan>
+                        </text>
+                        <text id="@media(min-width:-ma" transform="translate(125.680395, 91.094533) rotate(-4.000000) translate(-125.680395, -91.094533) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="28.1803954" y="95.0945329">@media(min-width: map-get($breakpoints, md)) {}</tspan>
+                        </text>
+                        <text id="git-pull-master" transform="translate(254.000000, 82.000000) rotate(-4.000000) translate(-254.000000, -82.000000) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="226" y="86">git pull master</tspan>
+                        </text>
+                        <text id="gulp.watch(&quot;dist/scs" transform="translate(140.500000, 102.000000) rotate(-4.000000) translate(-140.500000, -102.000000) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="26" y="106">gulp.watch("dist/scss/**/*.scss", gulpsync.sync(['sass:dev']));</tspan>
+                        </text>
+                        <text id="ls--la" transform="translate(268.500000, 94.000000) rotate(-4.000000) translate(-268.500000, -94.000000) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="259" y="98">ls -la</tspan>
+                        </text>
+                        <text id="ng-controller=&quot;MainC" transform="translate(83.500000, 118.000000) rotate(-3.000000) translate(-83.500000, -118.000000) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="23" y="122">ng-controller="MainController"</tspan>
+                        </text>
+                        <text id="import-{-createStore" transform="translate(212.500000, 110.000000) rotate(-3.500000) translate(-212.500000, -110.000000) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="146" y="114">import { createStore } from 'redux';</tspan>
+                        </text>
+                        <text id="npm-install---save-d" transform="translate(86.000000, 129.000000) rotate(-3.000000) translate(-86.000000, -129.000000) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="20" y="133">npm install --save-dev gulp-install</tspan>
+                        </text>
+                        <text id="brew-install-maven" transform="translate(49.186858, 165.287626) rotate(-2.000000) translate(-49.186858, -165.287626) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="12.1868576" y="169.287626">brew install maven</tspan>
+                        </text>
+                        <text id="$(window).load(funct" transform="translate(207.000000, 123.000000) rotate(-3.000000) translate(-207.000000, -123.000000) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="150" y="127">  $(window).load(function(){});</tspan>
+                        </text>
+                        <text id="&lt;div-class=“customCl" transform="translate(136.500000, 138.000000) rotate(-3.000000) translate(-136.500000, -138.000000) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="16" y="142">&lt;div class=“customClass col-md-6 col-sm-4 col-xs-12&gt;&lt;/div&gt;</tspan>
+                        </text>
+                        <text id="paddingVertical:-(Pl" transform="translate(107.652439, 151.259448) rotate(-2.500000) translate(-107.652439, -151.259448) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="14.1524393" y="155.259448">paddingVertical: (Platform.OS === 'ios') ? 20 : 0,</tspan>
+                        </text>
+                        <text id="color:-$text_color;" transform="translate(236.500000, 145.000000) rotate(-2.500000) translate(-236.500000, -145.000000) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="201" y="149">color: $text_color;</tspan>
+                        </text>
+                        <text id="&lt;?php-print-$fields[" transform="translate(163.500000, 161.000000) rotate(-2.000000) translate(-163.500000, -161.000000) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="85" y="165"> &lt;?php print $fields['body']-&gt;content; ?&gt;</tspan>
+                        </text>
+                        <text id="for-(var-i-=-0;-i-&lt;" transform="translate(86.500000, 175.000000) rotate(-2.000000) translate(-86.500000, -175.000000) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="10" y="179">for (var i = 0; i &lt; data.items.length; i++) </tspan>
+                        </text>
+                        <text id="&amp;:-ms-input-placehol" transform="translate(213.500000, 171.000000) rotate(-2.000000) translate(-213.500000, -171.000000) " letter-spacing="-0.241176456" fill="#008000">
+                            <tspan x="162" y="175">&amp;:-ms-input-placeholder {}</tspan>
+                        </text>
+                        <text id="ng-repeat=&quot;product-i" transform="translate(69.500000, 187.000000) rotate(-1.500000) translate(-69.500000, -187.000000) " letter-spacing="-0.241176456" fill="#800080">
+                            <tspan x="6" y="191">ng-repeat="product in products"</tspan>
+                        </text>
+                        <text id="store.subscribe(()-=" transform="translate(106.500000, 198.000000) rotate(-1.500000) translate(-106.500000, -198.000000) " letter-spacing="-0.241176456" fill="#FF5B85">
+                            <tspan x="4" y="202">store.subscribe(() =&gt; {this.setState(store.getState());});</tspan>
+                        </text>
+                        <text id="React.PropTypes.stri" transform="translate(199.500000, 184.000000) rotate(-1.500000) translate(-199.500000, -184.000000) " letter-spacing="-0.241176456" fill="#0072B4">
+                            <tspan x="133" y="188">React.PropTypes.string.isRequired,</tspan>
+                        </text>
+                        <text id="git-checkout" transform="translate(235.000000, 195.000000) rotate(-1.500000) translate(-235.000000, -195.000000) " letter-spacing="-0.241176456" fill="#FF7B00">
+                            <tspan x="211" y="199">git checkout</tspan>
+                        </text>
+                        <text id="React.PropTypes.stri" transform="translate(67.500000, 212.000000) rotate(-1.000000) translate(-67.500000, -212.000000) " letter-spacing="-0.241176456" fill="#CC1100">
+                            <tspan x="1" y="216">React.PropTypes.string.isRequired,</tspan>
+                        </text>
+                        <text id="return-function(call" transform="translate(196.500000, 210.000000) rotate(-1.000000) translate(-196.500000, -210.000000) " letter-spacing="-0.241176456" fill="#FFAA00">
+                            <tspan x="136" y="214">return function(callback, ms){});</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

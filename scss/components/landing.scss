@@ -1,0 +1,18 @@
+
+.landing {
+  background-color: $background_default;
+
+  .container {
+    margin-top: 20px;
+    margin-bottom: 160px;
+  }
+}
+
+.landing-highlight {
+  font-family: $regular__font-family__Lato;
+  color: $text_highlight;
+}
+
+.landing-image {
+  width: 100%;
+}
