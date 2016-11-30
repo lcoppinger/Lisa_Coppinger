@@ -19,10 +19,12 @@
   font-size: 64px; }
 
 .landing-title {
-  color: #404040; }
+  color: #404040;
+  margin: 0 0 60px 0; }
 
 .title {
-  color: #404040; }
+  color: #404040;
+  margin: 0; }
 
 .landing {
   background-color: #F7F7F7; }
@@ -36,3 +38,10 @@
 
 .landing-image {
   width: 100%; }
+
+.center-wrapper {
+  display: table; }
+  .center-wrapper .center-block {
+    float: none;
+    display: table-cell;
+    vertical-align: middle; }

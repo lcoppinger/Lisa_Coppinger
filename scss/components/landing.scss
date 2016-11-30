@@ -16,3 +16,13 @@
 .landing-image {
   width: 100%;
 }
+
+.center-wrapper {
+  display: table;
+
+  .center-block {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}

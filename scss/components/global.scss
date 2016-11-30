@@ -2,9 +2,11 @@
 .landing-title {
   @extend %landing-font;
   color: $text_default;
+  margin: 0 0 60px 0;
 }
 
 .title {
   @extend %title-font;
   color: $text_default;
+  margin: 0;
 }
