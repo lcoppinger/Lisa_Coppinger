@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Coding stamp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="50" cy="50" rx="50" ry="50"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="23.5" cy="23.5" r="22.5"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="51" height="51">
+            <rect x="-2" y="-2" width="51" height="51" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-248.000000, -1919.000000)">
+            <g id="About-me" transform="translate(250.000000, 769.000000)">
+                <g id="Group-7" transform="translate(1.000000, 1145.000000)">
+                    <g id="Coding-stamp" transform="translate(0.000000, 7.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#CC1100" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Google-icon" transform="translate(6.000000, 25.000000)">
+                            <text id="Google" font-family="Lato-Regular, Lato" font-size="36" font-weight="normal" letter-spacing="-0.86823523" fill="#CC1100">
+                                <tspan x="0" y="36">Go</tspan>
+                                <tspan x="44.7575295" y="36" font-size="24" letter-spacing="-0.578823507">ogle</tspan>
+                            </text>
+                            <use id="Oval-7" stroke="#CC1100" mask="url(#mask-4)" stroke-width="6" xlink:href="#path-3"></use>
+                            <path d="M41.5,41.5 L59.5,59.5" id="Line" stroke="#CC1100" stroke-width="5" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

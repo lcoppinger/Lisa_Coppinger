@@ -10,6 +10,14 @@
   font-family: 'Lato-ThinItalic';
   src: url("../scss/fonts/Lato-ThinItalic.ttf") format("truetype"); }
 
+.section_description, .timeline_item p, .tile h4 {
+  font-family: "Lato-Light";
+  font-size: 24px; }
+
+.sub_title {
+  font-family: "Lato-Regular";
+  font-size: 36px; }
+
 .title {
   font-family: "Lato-Light";
   font-size: 48px; }
@@ -25,6 +33,34 @@
 .title {
   color: #404040;
   margin: 0; }
+
+.section_container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative; }
+
+.section_title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 90px; }
+  .section_title:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 6px;
+    background-color: #CC1100;
+    margin-top: 26px;
+    position: absolute;
+    left: 48%; }
+
+.sub_title {
+  color: #CC1100;
+  margin-top: 30px; }
+
+.section_description {
+  color: #404040;
+  text-align: center;
+  margin-bottom: 70px; }
 
 .landing {
   background-color: #F7F7F7; }
@@ -45,3 +81,30 @@
     float: none;
     display: table-cell;
     vertical-align: middle; }
+
+.timeline_item {
+  margin-bottom: 80px;
+  overflow: hidden; }
+  .timeline_item .icon_wrapper {
+    text-align: right; }
+  .timeline_item p {
+    color: #404040; }
+
+.timeline {
+  height: 110%;
+  width: 12px;
+  background-color: #F7F7F7;
+  position: absolute;
+  top: -100px;
+  left: 116px; }
+
+.project_container {
+  background-color: #F7F7F7; }
+
+.tile {
+  height: 280px;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px; }
+  .tile h4 {
+    color: #404040; }

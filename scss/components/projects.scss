@@ -1,0 +1,15 @@
+.project_container {
+  background-color: $background_default;
+}
+
+.tile {
+  height: 280px;
+  background-color: $background_inverse;
+  text-align: center;
+  padding: 30px;
+
+  h4 {
+    @extend %base-font;
+    color: $text_default;
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Drupal icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="50" cy="50" rx="50" ry="50"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-247.000000, -1559.000000)">
+            <g id="About-me" transform="translate(250.000000, 769.000000)">
+                <g id="Group-5" transform="translate(0.000000, 792.000000)">
+                    <g id="Drupal-icon">
+                        <g id="Coding-stamp">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use stroke="#CC1100" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                        <path d="M55.5197454,21.5067135 C69.4517485,24.0977996 80,36.3170617 80,51 C80,67.5685425 66.5685425,81 50,81 C33.4314575,81 20,67.5685425 20,51 C20,37.8286894 28.4881396,26.63989 40.2927115,22.6053092 C40.3490685,22.571855 40.4179671,22.5367672 40.5,22.5 C44.0920898,20.8900258 45.5,12.5 45.5,12.5 C45.5,12.5 52.5,20.5 55.5,21.5 C55.5067044,21.5022348 55.513286,21.5044727 55.5197454,21.5067135 Z" id="Combined-Shape" stroke="#CC1100" fill="#CC1100"></path>
+                        <path d="M71.5781399,66.5 C74.2310141,66.5 76.3533135,63.5620694 76.3533135,59.25 C76.3533135,54.9379306 75.2921638,52 71.5781399,52 C67.864116,52 62.0277927,56.4615385 59.3749185,59.25 C56.7220443,62.0384615 68.9252657,66.5 71.5781399,66.5 Z" id="Oval-4" stroke="#FFFFFF" fill="#FFFFFF"></path>
+                        <path d="M44.3704601,68.8271343 C51.1380147,67.6966247 61.2699762,61.8050959 57.3849881,58.652548 C53.5,55.5 48.5,52.5 43.7082317,53 C38.9164633,53.5 35,57.1091934 35,61.2183867 C35,65.3275801 37.6029056,69.9576439 44.3704601,68.8271343 Z" id="Oval-3" stroke="#FFFFFF" fill="#FFFFFF"></path>
+                        <path d="M53,58.5 C56.5,57 56,55.5 59,55.5 C62,55.5 61,58 65,59" id="Line" stroke="#FFFFFF" stroke-linecap="square" transform="translate(59.000000, 57.250000) scale(1, -1) translate(-59.000000, -57.250000) "></path>
+                        <path d="M53.5,65 C56,63 57,62 58.5,61.5 C60,61 61.5,63.5 64,64" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        <path d="M53.5,71.5 C53.5,71.5 56,68.5 59,68.5 C62,68.5 63,70.5 63,70.5" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M49,75.6097678 C50.5050866,76.6627984 51.9717124,76.9713507 54.3780063,76.9995479 C56.7843002,77.027745 61.5011387,77.0577341 63,75" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

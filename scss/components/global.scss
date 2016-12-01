@@ -10,3 +10,39 @@
   color: $text_default;
   margin: 0;
 }
+
+.section_container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section_title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 90px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 6px;
+    background-color: $border_title;
+    margin-top: 26px;
+    position: absolute;
+    left: 48%;
+  }
+}
+
+.sub_title {
+  @extend %subtitle-font;
+  color: $highlight;
+  margin-top: 30px;
+}
+
+.section_description {
+  @extend %base-font;
+  color: $text_default;
+  text-align: center;
+  margin-bottom: 70px;
+}

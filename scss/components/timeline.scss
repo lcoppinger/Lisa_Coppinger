@@ -1,0 +1,22 @@
+.timeline_item {
+  margin-bottom: 80px;
+  overflow: hidden;
+
+  .icon_wrapper {
+    text-align: right;
+  }
+
+  p {
+    @extend %base-font;
+    color: $text_default;
+  }
+}
+
+.timeline {
+  height: 110%;
+  width: 12px;
+  background-color: $background_default;
+  position: absolute;
+  top: -100px;
+  left: 116px;
+}
