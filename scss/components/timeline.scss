@@ -1,14 +1,93 @@
 .timeline_item {
-  margin-bottom: 80px;
+  margin-bottom:120px;
   overflow: hidden;
 
   .icon_wrapper {
-    text-align: right;
+    background: no-repeat right;
+    height: 110px;
+    width: 100%;
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+  }
+
+  .animate {
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+  }
+
+  #DNA {
+    background-image: url('../Images/DNA_stamp.svg');
+  }
+
+  #Coding {
+    background-image: url('../Images/Coding_stamp.svg');
+  }
+
+  #Angular {
+    background-image: url('../Images/Angular_stamp.svg');
+  }
+
+  #Drupal {
+    background-image: url('../Images/Drupal_stamp.svg');
+  }
+
+  #Agile {
+    background-image: url('../Images/Agile_stamp.svg');
+  }
+
+  #Google {
+    background-image: url('../Images/Google_stamp.svg');
+  }
+
+  #React {
+    background-image: url('../Images/React_stamp.svg');
+  }
+
+  #Microservices {
+    background-image: url('../Images/Microservices_stamp.svg');
   }
 
   p {
     @extend %base-font;
     color: $text_default;
+  }
+}
+
+.active {
+  #DNA {
+    background-image: url('../Images/DNA_stamp_active.svg')
+  }
+
+  #Coding {
+    background-image: url('../Images/Coding_stamp_active.svg');
+  }
+
+  #Angular {
+    background-image: url('../Images/Angular_stamp_active.svg');
+  }
+
+  #Drupal {
+    background-image: url('../Images/Drupal_stamp_active.svg');
+  }
+
+  #Agile {
+    background-image: url('../Images/Agile_stamp_active.svg');
+  }
+
+  #Google {
+    background-image: url('../Images/Google_stamp_active.svg');
+  }
+
+  #React {
+    background-image: url('../Images/React_stamp_active.svg');
+  }
+
+  #Microservices {
+    background-image: url('../Images/Microservices_stamp_active.svg');
   }
 }
 

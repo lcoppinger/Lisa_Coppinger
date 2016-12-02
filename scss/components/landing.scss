@@ -1,11 +1,6 @@
 
 .landing {
   background-color: $background_default;
-
-  .container {
-    margin-top: 20px;
-    margin-bottom: 160px;
-  }
 }
 
 .landing-highlight {
@@ -14,15 +9,22 @@
 }
 
 .landing-image {
-  width: 100%;
+  margin-left: -250px;
+  width: 550px;
 }
 
 .center-wrapper {
   display: table;
+  margin: 5px 10% 80px;
 
   .center-block {
     float: none;
     display: table-cell;
     vertical-align: middle;
   }
+
+  .animation_wrapper {
+    display: none;
+  }
 }
+

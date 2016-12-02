@@ -15,6 +15,9 @@ $text_highlight: $highlight;
 //Background
 $background_default: $light_grey;
 $background_inverse: $white;
+$background_button: $highlight;
+$background_tile--hover: $highlight;
 
 //Border
 $border_title: $highlight;
+$border_button--inverse: 1px solid $white;

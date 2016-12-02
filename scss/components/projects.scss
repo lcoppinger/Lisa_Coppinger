@@ -1,5 +1,9 @@
 .project_container {
   background-color: $background_default;
+
+  .col-md-3 {
+    position: relative;
+  }
 }
 
 .tile {
@@ -7,9 +11,34 @@
   background-color: $background_inverse;
   text-align: center;
   padding: 30px;
+  margin: 15px 0;
 
   h4 {
     @extend %base-font;
     color: $text_default;
+    margin-top: 50px;
   }
+
+  img {
+    height: 120px;
+  }
+}
+
+.sass {
+  img {
+    margin-top: 40px;
+  }
+}
+
+.description {
+  @extend %tile-font;
+  background-color: $background_tile--hover;
+  color: $text_inverse;
+  display: none;
+  height: 90%;
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  width: 90%;
 }

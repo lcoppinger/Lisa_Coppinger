@@ -14,6 +14,9 @@ $title-font-size--lg: $title-font-size--md;
 $landing-font-size--md: 64px;
 $landing-font-size--lg: $landing-font-size--md;
 
+$tile-font-size--md: 16px;
+$tile-font-size--lg: $landing-font-size--md;
+
 
 //font-families
 $light__font-family__Lato: 'Lato-Light';
@@ -37,4 +40,9 @@ $regular__font-family__Lato: 'Lato-Regular';
 %landing-font {
   font-family: $light__font-family__Lato;
   font-size: $landing-font-size--md;
+}
+
+%tile-font {
+  font-family: $light__font-family__Lato;
+  font-size: $tile-font-size--md;
 }
