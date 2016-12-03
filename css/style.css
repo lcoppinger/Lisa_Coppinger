@@ -97,6 +97,12 @@
     background-color: #FFFFFF;
     color: #CC1100; }
 
+a {
+  color: #CC1100; }
+  a:hover, a :focus, a :active {
+    text-decoration: none;
+    color: #b30f00; }
+
 .landing {
   background-color: #F7F7F7; }
 
@@ -192,29 +198,72 @@
 
 .tile {
   height: 280px;
-  background-color: #FFFFFF;
+  background-color: #F7F7F7;
   text-align: center;
-  padding: 30px;
-  margin: 15px 0; }
+  margin: 0 auto;
+  position: relative;
+  -webkit-perspective: 600px;
+  perspective: 600px; }
   .tile h4 {
     color: #404040;
     margin-top: 50px; }
   .tile img {
     height: 120px; }
 
+.tile .front {
+  position: absolute;
+  top: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 30px;
+  background-color: #FFFFFF;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform-style: preserve-3d;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out; }
+
+.tile.flip .front {
+  z-index: 900;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg); }
+
+.tile .back {
+  position: absolute;
+  top: 0;
+  z-index: 800;
+  width: 100%;
+  height: 100%;
+  background-color: #CC1100;
+  -webkit-transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-transform: rotateY(-180deg);
+  -moz-transform-style: preserve-3d;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out; }
+
+.tile.flip .back {
+  z-index: 1000;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg); }
+
 .sass img {
   margin-top: 40px; }
 
 .description {
-  background-color: #CC1100;
   color: #FFFFFF;
-  display: none;
-  height: 90%;
   padding: 15px;
-  text-align: center;
-  position: absolute;
-  top: 15px;
-  width: 90%; }
+  text-align: center; }
+
+.tile_wrapper {
+  margin: 20px 0; }
 
 .footer {
   height: 150px; }
@@ -274,46 +323,23 @@
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight; }
 
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none; } }
+.scrollToTop {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 40px;
+  border: 4px solid #CC1100;
+  border-radius: 50%;
+  right: 40px;
+  display: none;
+  background: url("../Images/scrollToTop.svg") no-repeat 10px 20px;
+  background-size: initial;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease; }
 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none; } }
-
-.animated-fadeInUp, #delay_1, #delay_2, #delay_3, #delay_4 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp; }
-
-#delay_1 {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s; }
-
-#delay_2 {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s; }
-
-#delay_3 {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
-
-#delay_4 {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s; }
+.scrollToTop:hover {
+  text-decoration: none;
+  background: url("../Images/scrollToTop_active.svg") #CC1100 no-repeat 10px 20px;
+  background-size: initial; }

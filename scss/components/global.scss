@@ -85,3 +85,12 @@
     color: $text_highlight;
   }
 }
+
+a {
+  color: $text_highlight;
+
+  &:hover, :focus, :active {
+    text-decoration: none;
+    color: darken($text_highlight, 5%);
+  }
+}

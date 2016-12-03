@@ -20,15 +20,25 @@ $(document).ready(function(){
     });
   });
 
-  //Project box fade animation
-  $(".animated-toggle").each(function(){
-
-     $(this).mouseenter(function(){
-       $(this).children(".description").fadeIn("slow");
-     });
-      $(this).mouseleave(function(){
-        $(this).children(".description").fadeOut("slow");
-      });
+//project tile flip animation
+  $('.hover').hover(function(){
+      $(this).addClass('flip');
+        },function(){
+      $(this).removeClass('flip');
   });
+
+  //Scroll to top button animation
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 400) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
 
 });

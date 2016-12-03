@@ -8,10 +8,13 @@
 
 .tile {
   height: 280px;
-  background-color: $background_inverse;
+  background-color: $background_default;
   text-align: center;
-  padding: 30px;
-  margin: 15px 0;
+  margin: 0 auto;
+  position: relative;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  perspective: 600px;
 
   h4 {
     @extend %base-font;
@@ -24,6 +27,58 @@
   }
 }
 
+.tile .front {
+  position: absolute;
+  top: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 30px;
+  background-color: $background_inverse;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform-style: preserve-3d;
+  -moz-backface-visibility: hidden;
+  -ms-transition: all .75s ease-in-out;
+  -moz-transition: all .75s ease-in-out;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out;
+}
+
+.tile.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.tile .back {
+    position: absolute;
+    top: 0;
+    z-index: 800;
+    width: 100%;
+    height: 100%;
+    background-color: $background_tile--hover;
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -ms-transition: all .75s ease-in-out;
+    -moz-transition: all .75s ease-in-out;
+    -webkit-transition: all .75s ease-in-out;
+    transition: all .75s ease-in-out;
+}
+
+.tile.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
 .sass {
   img {
     margin-top: 40px;
@@ -32,13 +87,11 @@
 
 .description {
   @extend %tile-font;
-  background-color: $background_tile--hover;
   color: $text_inverse;
-  display: none;
-  height: 90%;
   padding: 15px;
   text-align: center;
-  position: absolute;
-  top: 15px;
-  width: 90%;
+}
+
+.tile_wrapper {
+  margin: 20px 0;
 }
