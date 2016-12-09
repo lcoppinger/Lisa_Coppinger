@@ -1,8 +1,16 @@
 .project_container {
   background-color: $background_default;
 
+  .section_container {
+    margin-top: 100px;
+  }
+
   .col-md-3 {
     position: relative;
+  }
+
+  .base_font {
+    text-align: center;
   }
 }
 

@@ -1,3 +1,8 @@
+.background_image {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
 
 .landing {
   background-color: $background_default;
@@ -5,26 +10,22 @@
 
 .landing-highlight {
   font-family: $regular__font-family__Lato;
-  color: $text_highlight;
+}
+
+.landing_wrapper {
+  z-index: 2;
+}
+
+.image_wrapper {
+  @extend .landing_wrapper;
+  text-align: center;
 }
 
 .landing-image {
-  margin-left: -250px;
-  width: 550px;
+  padding: 10px 0 50px 0;
+  height: 580px;
 }
 
-.center-wrapper {
-  display: table;
-  margin: 5px 10% 80px;
-
-  .center-block {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  .animation_wrapper {
-    display: none;
-  }
+.landing-icon {
+  padding: 10px 10px 0 0;
 }
-

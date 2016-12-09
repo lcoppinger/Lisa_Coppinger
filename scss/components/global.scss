@@ -1,8 +1,20 @@
 
 .landing-title {
-  @extend %landing-font;
+  @extend %title-font;
+  color: $text_inverse;
+  padding: 30px 50px;
+}
+
+.base_font {
+  @extend %base-font;
   color: $text_default;
-  margin: 0 0 30px 0;
+  margin-top: 0;
+}
+
+.landing-font {
+  @extend %base-font;
+  color: $text_inverse;
+  padding: 0 50px;
 }
 
 .title {
@@ -12,7 +24,7 @@
 }
 
 .section_container {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -40,31 +52,6 @@
   margin-top: 30px;
 }
 
-.section_description {
-  @extend %base-font;
-  color: $text_default;
-  text-align: center;
-  margin-bottom: 55px;
-}
-
-.contact_button {
-  @extend %base-font;
-  background-color: $background_button;
-  border: none;
-  border-radius: 30px;
-  color: $text_inverse;
-  padding: 10px 30px;
-  margin-top: 30px;
-  -webkit-transition-duration: 0.75s;
-  transition-duration: 0.75s;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-
-  &:hover, :focus {
-    outline: none;
-    background-color: darken($background_button, 5%);
-  }
-}
 
 .button_inverse {
   @extend %tile-font;
@@ -94,3 +81,8 @@ a {
     color: darken($text_highlight, 5%);
   }
 }
+
+.divider-inverse {
+  margin-bottom: -55px;
+}
+

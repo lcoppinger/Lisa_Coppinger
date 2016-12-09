@@ -2,20 +2,20 @@
 //font-size
 $base-font-size--xs: 18px;
 $base-font-size--sm: $base-font-size--xs;
-$base-font-size--md: 24px;
+$base-font-size--md: 20px;
 $base-font-size--lg: $base-font-size--md;
 
-$subtitle-font-size--md: 36px;
+$subtitle-font-size--md: 28px;
 $subtitle-font-size--lg: $subtitle-font-size--md;
 
 $title-font-size--md: 48px;
 $title-font-size--lg: $title-font-size--md;
 
-$landing-font-size--md: 64px;
-$landing-font-size--lg: $landing-font-size--md;
+$slider-font-size--md: 14px;
+$slider-font-size--lg: $slider-font-size--md;
 
 $tile-font-size--md: 16px;
-$tile-font-size--lg: $landing-font-size--md;
+$tile-font-size--lg: $tile-font-size--md;
 
 
 //font-families
@@ -37,9 +37,9 @@ $regular__font-family__Lato: 'Lato-Regular';
   font-size: $title-font-size--md;
 }
 
-%landing-font {
+%slider-font {
   font-family: $light__font-family__Lato;
-  font-size: $landing-font-size--md;
+  font-size: $slider-font-size--md;
 }
 
 %tile-font {

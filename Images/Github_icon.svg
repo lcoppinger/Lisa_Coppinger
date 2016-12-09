@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Github</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8.5" y="10.5" width="18" height="14" rx="7"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="14" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-2" transform="translate(-143.000000, -455.000000)">
+            <g id="Landing">
+                <g id="Github" transform="translate(145.000000, 457.000000)">
+                    <circle id="Oval" stroke="#CC1100" stroke-width="3" fill="#FFFFFF" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <use id="Rectangle-36" stroke="#CC1100" mask="url(#mask-2)" stroke-width="2" fill="#CC1100" xlink:href="#path-1"></use>
+                    <path d="M12.9394678,34.0233781 C11.2775024,34.0233781 14,33.6511841 14,31.9942017 L14,27.0057983 L14,27.0057983 C14,25.3457418 15.3496704,24 17.0092545,24 L17.9907455,24 C19.6527109,24 21,25.3488159 21,27.0057983 L21,31.9942017 C21,33.6542582 23.4185267,34.0233781 21.7589426,34.0233781" id="Rectangle" stroke="#CC1100" fill="#CC1100"></path>
+                    <path d="M11,9.12518683 C12.6337395,9.12518683 14.5380373,10.8402864 14.5380373,10.8402864 L11,12.5553859 C11,12.5553859 10.0663415,10.7304158 11,9.12518683 Z" id="Triangle-18" stroke="#CC1100" stroke-linecap="round" stroke-linejoin="round" fill="#CC1100"></path>
+                    <path d="M21,9.12518683 C22.6337395,9.12518683 24.5380373,10.8402864 24.5380373,10.8402864 L21,12.5553859 C21,12.5553859 20.0663415,10.7304158 21,9.12518683 Z" id="Triangle-18" stroke="#CC1100" stroke-linecap="round" stroke-linejoin="round" fill="#CC1100" transform="translate(22.561539, 10.840286) scale(-1, 1) translate(-22.561539, -10.840286) "></path>
+                    <path d="M7.80878722,24.2074896 C8.4318442,24.2074896 8.40104336,24.2544242 8.99359284,24.5606725 C9.58614232,24.8669209 10.7106551,26.838562 11.4394728,27.1168488 C12.1802878,27.3997166 13.1880809,27.2159061 13.1880809,27.2159061 C13.7264331,27.1611983 14.1628537,27.5706722 14.1628537,28.1200818 L14.1628537,27.9883603 C14.1628537,28.5424306 13.7144722,29.0036303 13.1673892,28.9936233 C13.1673892,28.9936233 12.0314356,29.1227168 10.8548436,28.5245939 C9.6782515,27.9264709 9.73105294,26.7915333 8.99359284,26.0655135 C8.25613274,25.3394937 6.61193281,24.2074896 7.80878722,24.2074896 Z" id="Rectangle-15" fill="#CC1100"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

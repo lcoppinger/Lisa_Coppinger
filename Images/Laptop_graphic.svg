@@ -87,45 +87,45 @@
         </mask>
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-630.000000, -24.000000)">
+        <g id="Desktop-HD-2" transform="translate(-776.000000, -46.000000)">
             <g id="Landing">
-                <g id="Laptop-graphic" transform="translate(630.000000, 17.000000)">
+                <g id="Laptop-graphic" transform="translate(776.000000, 39.000000)">
                     <g id="Laptop-text" transform="translate(384.552038, 178.263275) rotate(-4.000000) translate(-384.552038, -178.263275) translate(121.552038, 18.263275)" font-weight="normal" font-family="Lato-Italic, Lato" font-size="10" font-style="italic">
                         <text id="cd-../" transform="translate(439.951281, 256.000000) rotate(-2.000000) translate(-439.951281, -256.000000) " letter-spacing="-0.241176456" fill="#CC1100">
                             <tspan x="429.951281" y="260">cd ../</tspan>
                         </text>
-                        <text id="if-($(this).length()" transform="translate(380.076864, 66.512169) rotate(-6.000000) translate(-380.076864, -66.512169) " fill="#800080">
+                        <text id="if-($(this).length()" opacity="0.7" transform="translate(380.076864, 66.512169) rotate(-6.000000) translate(-380.076864, -66.512169) " fill="#800080">
                             <tspan x="331.576864" y="70.5121688">if ($(this).length() &lt; 2 {};</tspan>
                         </text>
-                        <text id="$document.ready(funt" transform="translate(249.992726, 20.140805) rotate(-7.000000) translate(-249.992726, -20.140805) " fill="#CC1100">
+                        <text id="$document.ready(funt" opacity="0.5" transform="translate(249.992726, 20.140805) rotate(-7.000000) translate(-249.992726, -20.140805) " fill="#CC1100">
                             <tspan x="186.992726" y="24.1408049">$document.ready(funtion(){});</tspan>
                         </text>
-                        <text id="class-TestForm-exten" transform="translate(77.627539, 14.140805) rotate(-6.000000) translate(-77.627539, -14.140805) " fill="#008000">
+                        <text id="class-TestForm-exten" opacity="0.5" transform="translate(77.627539, 14.140805) rotate(-6.000000) translate(-77.627539, -14.140805) " fill="#008000">
                             <tspan x="0.627538979" y="18.1408049">class TestForm extends Component {}</tspan>
                         </text>
-                        <text id="&lt;meta-name=“viewport" transform="translate(186.731103, 78.512169) rotate(-5.000000) translate(-186.731103, -78.512169) " fill="#0072B4">
+                        <text id="&lt;meta-name=“viewport" opacity="0.6" transform="translate(186.731103, 78.512169) rotate(-5.000000) translate(-186.731103, -78.512169) " fill="#0072B4">
                             <tspan x="52.2149136" y="76.5121688">&lt;meta name=“viewport” content=“width=device-width, initial-</tspan>
                             <tspan x="52.2149136" y="88.5121688">scale=1”&gt;</tspan>
                         </text>
-                        <text id="$primary_button—colo" transform="translate(439.750855, 90.720973) rotate(-5.000000) translate(-439.750855, -90.720973) " fill="#FF5B85">
+                        <text id="$primary_button—colo" opacity="0.8" transform="translate(439.750855, 90.720973) rotate(-5.000000) translate(-439.750855, -90.720973) " fill="#FF5B85">
                             <tspan x="368.250855" y="94.7209726">$primary_button—color: #ff5b85; </tspan>
                         </text>
-                        <text id="ng-App=-MyApp" transform="translate(344.515378, 128.473895) rotate(-4.500000) translate(-344.515378, -128.473895) " fill="#FF7B00">
+                        <text id="ng-App=-MyApp" opacity="0.8" transform="translate(344.515378, 128.473895) rotate(-4.500000) translate(-344.515378, -128.473895) " fill="#FF7B00">
                             <tspan x="310.015378" y="132.473895">ng-App= MyApp</tspan>
                         </text>
-                        <text id=".body-{@extend-%body" transform="translate(456.209892, 18.708305) rotate(-7.000000) translate(-456.209892, -18.708305) " fill="#FFAA00">
+                        <text id=".body-{@extend-%body" opacity="0.6" transform="translate(456.209892, 18.708305) rotate(-7.000000) translate(-456.209892, -18.708305) " fill="#FFAA00">
                             <tspan x="387.209892" y="22.7083049">.body {@extend %bodyCopyText;}</tspan>
                         </text>
-                        <text id="function-search_quer" transform="translate(206.353416, 118.353052) rotate(-4.500000) translate(-206.353416, -118.353052) " letter-spacing="-0.241176456" fill="#CC1100">
+                        <text id="function-search_quer" opacity="0.7" transform="translate(206.353416, 118.353052) rotate(-4.500000) translate(-206.353416, -118.353052) " letter-spacing="-0.241176456" fill="#CC1100">
                             <tspan x="85.8534163" y="122.353052">function search_query(index) { $.get(request, function(data) {}}</tspan>
                         </text>
-                        <text id="@media(min-width:-ma" transform="translate(201.292171, 158.753930) rotate(-4.000000) translate(-201.292171, -158.753930) " letter-spacing="-0.241176456" fill="#FFAA00">
+                        <text id="@media(min-width:-ma" opacity="0.8" transform="translate(201.292171, 158.753930) rotate(-4.000000) translate(-201.292171, -158.753930) " letter-spacing="-0.241176456" fill="#FFAA00">
                             <tspan x="103.792171" y="162.75393">@media(min-width: map-get($breakpoints, md)) {}</tspan>
                         </text>
-                        <text id="git-pull-master" transform="translate(461.303042, 132.356377) rotate(-4.000000) translate(-461.303042, -132.356377) " letter-spacing="-0.241176456" fill="#008000">
+                        <text id="git-pull-master" opacity="0.9" transform="translate(461.303042, 132.356377) rotate(-4.000000) translate(-461.303042, -132.356377) " letter-spacing="-0.241176456" fill="#008000">
                             <tspan x="433.303042" y="136.356377">git pull master</tspan>
                         </text>
-                        <text id="gulp.watch(&quot;dist/scs" transform="translate(331.215382, 170.108070) rotate(-4.000000) translate(-331.215382, -170.108070) " letter-spacing="-0.241176456" fill="#800080">
+                        <text id="gulp.watch(&quot;dist/scs" opacity="0.9" transform="translate(331.215382, 170.108070) rotate(-4.000000) translate(-331.215382, -170.108070) " letter-spacing="-0.241176456" fill="#800080">
                             <tspan x="216.715382" y="174.10807">gulp.watch("dist/scss/**/*.scss", gulpsync.sync(['sass:dev']));</tspan>
                         </text>
                         <text id="ls--la" transform="translate(473.123326, 182.648071) rotate(-4.000000) translate(-473.123326, -182.648071) " letter-spacing="-0.241176456" fill="#0072B4">

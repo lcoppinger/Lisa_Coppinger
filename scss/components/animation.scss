@@ -65,7 +65,7 @@
   border-radius: 50%;
 	right:40px;
 	display:none;
-	background: url('../Images/scrollToTop.svg') no-repeat 10px 20px;
+	background: url('../Images/scrollToTop.svg') $background_inverse no-repeat 10px 20px;
   background-size: initial;
   -webkit-transition-duration: 0.75s;
   transition-duration: 0.75s;

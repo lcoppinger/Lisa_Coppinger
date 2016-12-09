@@ -1,0 +1,20 @@
+.slide {
+  background: url("../Images/Slide_background.svg") no-repeat center;
+  background-size: cover;
+  height: 250px;
+}
+
+.slide_text {
+  @extend %slider-font;
+  color: $text_default;
+}
+
+.text_wrapper {
+  margin: 0 30px 30px 0;
+  background: transparentize($background_inverse, .1);
+  padding: 15px;
+}
+
+.slick-arrow {
+  display: none !important;
+}

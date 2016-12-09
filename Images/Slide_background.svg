@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="360px" height="250px" viewBox="0 0 360 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Background 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="86.118226%" y1="87.3997446%" x2="38.5525233%" y2="38.6831244%" id="linearGradient-1">
+            <stop stop-color="#FCDEDA" offset="0%"></stop>
+            <stop stop-color="#FCDEDB" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="360" height="250"></rect>
+        <linearGradient x1="0%" y1="0%" x2="50%" y2="72.1305705%" id="linearGradient-3">
+            <stop stop-color="#FDEFEF" offset="0%"></stop>
+            <stop stop-color="#FDEEEE" offset="5.54996214%"></stop>
+            <stop stop-color="#FADADA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="-15.7606657%" x2="71.9069604%" y2="33.2876466%" id="linearGradient-4">
+            <stop stop-color="#FDEFEF" offset="0%"></stop>
+            <stop stop-color="#FADADA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="25.0166612%" y1="35.3497994%" x2="80.6745515%" y2="41.6134602%" id="linearGradient-5">
+            <stop stop-color="#FDEFEF" offset="0%"></stop>
+            <stop stop-color="#FADADA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.0248042%" y1="20.6207573%" x2="65.7384063%" y2="44.814907%" id="linearGradient-6">
+            <stop stop-color="#FDDDDA" offset="0%"></stop>
+            <stop stop-color="#F9B8B2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="74.591626%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#FEF1F0" offset="0%"></stop>
+            <stop stop-color="#FCDEDB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.60328227%" y1="6.45035612%" x2="30.9744697%" y2="42.4961185%" id="linearGradient-8">
+            <stop stop-color="#FDC9C3" offset="0%"></stop>
+            <stop stop-color="#FB988F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="60.7579692%" y1="25.0671861%" x2="68.8356003%" y2="78.8754568%" id="linearGradient-9">
+            <stop stop-color="#FDDDDA" offset="0%"></stop>
+            <stop stop-color="#F9B8B2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="81.1404266%" y1="4.30264593%" x2="45.5496231%" y2="59.4333305%" id="linearGradient-10">
+            <stop stop-color="#FDDDDA" offset="0%"></stop>
+            <stop stop-color="#F9B8B2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="10.7115438%" x2="63.0776145%" y2="34.737668%" id="linearGradient-11">
+            <stop stop-color="#FDEFEF" offset="0%"></stop>
+            <stop stop-color="#FADADA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.71152597%" y1="39.2320095%" x2="37.4877738%" y2="50%" id="linearGradient-12">
+            <stop stop-color="#FED7D2" offset="0%"></stop>
+            <stop stop-color="#FCADA6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.4300892%" y1="27.6898233%" x2="85.3871418%" y2="90.4146874%" id="linearGradient-13">
+            <stop stop-color="#FEF1F0" offset="0%"></stop>
+            <stop stop-color="#FDDEDB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-2" transform="translate(0.000000, -682.000000)">
+            <g id="Slide-1" transform="translate(0.000000, 682.000000)">
+                <g id="Background-1">
+                    <use id="Rectangle-37" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Triangle-background" transform="translate(122.000000, 109.000000)">
+                        <polygon id="Triangle-2" fill="#FD6D60" points="109 11 116 58 108 61"></polygon>
+                        <polygon id="Triangle-2" fill="#CC1100" points="212 106 238 141 186 141"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-3)" points="58 14 79 29 62 39"></polygon>
+                        <polygon id="Triangle-2" fill="#F8A098" points="109 11 137 41 116 58"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-4)" points="146 0 137 41 109 11"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-5)" points="62 39 65 77 44 54"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-6)" points="109 11 108 61 62 39"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-7)" points="65 77 46 111 6 85"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-8)" points="62 39 108 61 65 77"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-9)" points="238 28 238 45 204 45"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-10)" points="181 12 204 45 160 57"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-11)" points="181 12 160 57 137 41"></polygon>
+                        <polygon id="Triangle-2" fill="#F7ADA6" points="137 41 160 57 116 58"></polygon>
+                        <polygon id="Triangle-2" fill="#F07065" points="95 106 142 80 121 141"></polygon>
+                        <polygon id="Triangle-2" fill="#F04536" points="116 58 142 80 124 90"></polygon>
+                        <polygon id="Triangle-2" fill="#EF1A07" points="116 58 124 90 95 106"></polygon>
+                        <polygon id="Triangle-2" fill="#F07065" points="116 58 160 57 142 80"></polygon>
+                        <polygon id="Triangle-2" fill="#F5574A" points="95 106 121 141 69 141"></polygon>
+                        <polygon id="Triangle-2" fill="#EC4A3B" points="160 57 178 80 142 80"></polygon>
+                        <polygon id="Triangle-2" fill="#F8968D" points="238 45 238 80 204 45"></polygon>
+                        <polygon id="Triangle-2" fill="#EF1A07" points="142 80 178 80 149 124"></polygon>
+                        <polygon id="Triangle-2" fill="#DE1604" points="142 80 149 124 121 141"></polygon>
+                        <polygon id="Triangle-2" fill="#B60F00" points="238 106 238 141 212 106"></polygon>
+                        <polygon id="Triangle-2" fill="#D91705" points="212 106 186 141 149 124"></polygon>
+                        <polygon id="Triangle-2" fill="#E5392A" points="178 80 212 106 149 124"></polygon>
+                        <polygon id="Triangle-2" fill="#DE1503" points="178 80 238 106 212 106"></polygon>
+                        <polygon id="Triangle-2" fill="#EF1A06" points="149 124 186 141 121 141"></polygon>
+                        <polygon id="Triangle-2" fill="#F07065" points="204 45 238 80 178 80"></polygon>
+                        <polygon id="Triangle-2" fill="#E94233" points="204 45 178 80 160 57"></polygon>
+                        <polygon id="Triangle-2" fill="#ED493B" points="238 80 238 106 178 80"></polygon>
+                        <polygon id="Triangle-2" fill="#F74838" points="116 58 102 90 65 77"></polygon>
+                        <polygon id="Triangle-2" fill="#FD786B" points="102 90 95 106 65 77"></polygon>
+                        <polygon id="Triangle-2" fill="#F9B8B2" points="65 77 95 106 46 111"></polygon>
+                        <polygon id="Triangle-2" fill="#F8ADA6" points="40 141 95 106 69 141"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-12)" points="46 111 95 106 40 141"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-13)" points="46 111 40 141 0 141"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

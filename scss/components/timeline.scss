@@ -2,6 +2,10 @@
   margin-bottom:120px;
   overflow: hidden;
 
+  p {
+    margin-top: 10px;
+  }
+
   .icon_wrapper {
     background: no-repeat right;
     height: 110px;
@@ -92,9 +96,9 @@
 }
 
 .timeline {
-  height: 110%;
+  height: 108%;
   width: 12px;
-  background-color: $background_default;
+  background-color: $background_timeline;
   position: absolute;
   top: -100px;
   left: 116px;

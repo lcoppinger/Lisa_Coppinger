@@ -9,24 +9,68 @@
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/vendor/slick.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div class="container-fluid landing">
-    <div class="container">
-        <div class="row center-wrapper">
-            <div class="center-block">
-                <div class="animated-fadeIn">
-                    <h1 class="landing-title">Hello World</h1>
-                    <h2 class="title">I'm <span class="landing-highlight">Lisa</span> and I love to create awesome things!</h2>
-                    <a href="mailto:lc14g10@gmail.com"><button type="button" class="contact_button">Contact me</button></a>
+<div class="container-fluid">
+    <div class="row landing">
+        <img src="Images/Background_image.svg" class="background_image"/>
+        <div class="col-md-6 landing_wrapper">
+            <h1 class="landing-title">Hello World</h1>
+            <div class="col-md-11 landing-font">
+                <p>I’m <span class="landing-highlight">Lisa</span>, a self taught front end developer who continuously drives to learn new technologies and frameworks, and improve my work.</p>
+                <p>I developed my skills outside of my day job, to engineer myself a developer role, which includes sole repsonibility for internal end to end projects, as well as part of a team on client development projects.</p>
+                <a href="#"><img src="Images/Email_icon.svg" class="landing-icon"/></a>
+                <a href="#"><img src="Images/Github_icon.svg" class="landing-icon"/></a>
+            </div>
+        </div>
+        <div class="col-md-6 image_wrapper">
+            <img src="Images/Laptop_graphic.svg" class="landing-image"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="slider">
+            <div class="col-md-3 slide">
+                <div class="text_wrapper">
+                    <h2 class="base_font">Liberty Global microservices backend</h2>
+                    <p class="slide_text">Currently my project work involves replacing Liberty Global’s backend media services with a microservices architecture.</p>
+                    <p class="slide_text">As well as understanding the microservices concept I am supporting Java Spring Boot development of a prototype.</p>
                 </div>
             </div>
-            <div class="landing_image animated-fadeInRight">
-                <img src="Images/Laptop_graphic.svg" class="landing-image"/>
+            <div class="col-md-3 slide">
+                <div class="text_wrapper">
+                    <h2 class="base_font">Local Government SaaS platform</h2>
+                    <p class="slide_text">I was a front end developer in an Agile Scrum Dev team, using tools such as Git and Gulp as well as Sass and jQuery.</p>
+                    <p class="slide_text">As the platform was built on Drupal I also learnt the principles of Drupal themeing, and understood the PHP modular platform.</p>
+                </div>
+            </div>
+            <div class="col-md-3 slide">
+                <div class="text_wrapper">
+                    <h2 class="base_font">Google Site Search prototype</h2>
+                    <p class="slide_text">Due to budget constraints, I was tasked with creating a custom search functionality.</p>
+                    <p class="slide_text">Using Google Site Search API and jQuery, I built the front end prototype to fulfil all acceptance criteria for the product, and began to develop further for implementation in production.</p>
+                </div>
+            </div>
+            <div class="col-md-3 slide">
+                <div class="text_wrapper">
+                    <h2 class="base_font">Support DevOps team</h2>
+                    <p class="slide_text">As I was curious to learn about the entire technology stack and how systems are integrated.</p>
+                    <p class="slide_text">Therefore I supported the DevOps team on an internal SaaS platform to understand the fundamentals of deployment and environment management.</p>
+                </div>
+            </div>
+            <div class="col-md-3 slide">
+                <div class="text_wrapper">
+                    <h2 class="base_font">End to end project development</h2>
+                    <p class="slide_text">I have built multiple internal facing microsites for PwC, for a variety of different areas of the business.</p>
+                    <p class="slide_text"></p>
+                </div>
             </div>
         </div>
     </div>
+</div>
+<div class="divider">
+    <img src="Images/Divider.svg"/>
 </div>
 <div class="container section_container">
     <div class="timeline"></div>
@@ -124,13 +168,16 @@
         </div>
     </div>
 </div>
+<div class="divider-inverse">
+    <img src="Images/Divider_inverse.svg"/>
+</div>
 <div class="container-fluid project_container">
     <div class="container section_container">
         <div class="row">
             <div class="section_title">
                 <h2 class="title">Project Examples</h2>
             </div>
-            <div class="section_description">
+            <div class="base_font">
                 <p>As the majority of my work is protected intellectual property, and therefore stuck behind a corporate firewall, so I have collected together some examples with the IP replaced by generic text.</p>
             </div>
             <div class="col-md-3 tile_wrapper">
@@ -215,6 +262,7 @@
 <a href="#" class="scrollToTop"></a>
 <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/slick.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

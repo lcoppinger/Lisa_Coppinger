@@ -6,7 +6,7 @@ $(document).ready(function(){
   //timeline scroll animation
   $(window).scroll(function () {
     $(".timeline_item").each(function(){
-      var y = $(window).scrollTop() + 400;
+      var y = $(window).scrollTop() + 600;
       var z = $(this).offset().top;
 
       if (y >= z) {
@@ -40,5 +40,14 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+
+  //carousel
+
+  $('.slider').slick({
+    infinite: true,
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
 
 });
