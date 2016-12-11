@@ -12,7 +12,10 @@
 
 .base_font, .landing-font, .timeline_item p, .tile h4, .footer p {
   font-family: "Lato-Light";
-  font-size: 20px; }
+  font-size: 16px; }
+  @media (min-device-width: 992px) {
+    .base_font, .landing-font, .timeline_item p, .tile h4, .footer p {
+      font-size: 20px; } }
 
 .sub_title {
   font-family: "Lato-Regular";
@@ -20,7 +23,10 @@
 
 .landing-title, .title {
   font-family: "Lato-Light";
-  font-size: 48px; }
+  font-size: 32px; }
+  @media (min-device-width: 992px) {
+    .landing-title, .title {
+      font-size: 48px; } }
 
 .slide_text {
   font-family: "Lato-Light";
@@ -32,7 +38,10 @@
 
 .landing-title {
   color: #FFFFFF;
-  padding: 30px 50px; }
+  padding: 30px; }
+  @media (min-device-width: 992px) {
+    .landing-title {
+      padding: 30px 50px; } }
 
 .base_font {
   color: #404040;
@@ -40,7 +49,10 @@
 
 .landing-font {
   color: #FFFFFF;
-  padding: 0 50px; }
+  padding: 0 30px; }
+  @media (min-device-width: 992px) {
+    .landing-font {
+      padding: 0 50px; } }
 
 .title {
   color: #404040;
@@ -91,13 +103,31 @@ a {
     text-decoration: none;
     color: #b30f00; }
 
+.divider img, .divider-inverse img {
+  width: 100%; }
+
 .divider-inverse {
-  margin-bottom: -55px; }
+  margin-bottom: -10px; }
+  @media (min-device-width: 768px) {
+    .divider-inverse {
+      margin-bottom: -55px; } }
+
+.desktop {
+  display: none; }
+  @media (min-device-width: 768px) {
+    .desktop {
+      display: block; } }
+
+.mobile {
+  display: block; }
+  @media (min-device-width: 768px) {
+    .mobile {
+      display: none; } }
 
 .background_image {
-  width: 100%;
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  width: 100%; }
 
 .landing {
   background-color: #F7F7F7; }
@@ -113,18 +143,25 @@ a {
 
 .landing-image {
   padding: 10px 0 50px 0;
-  height: 580px; }
+  width: 100%; }
+  @media (min-device-width: 992px) {
+    .landing-image {
+      height: 580px; } }
 
 .landing-icon {
   padding: 10px 10px 0 0; }
 
 .timeline_item {
-  margin-bottom: 120px;
+  margin-bottom: 30px;
   overflow: hidden; }
+  @media (min-device-width: 768px) {
+    .timeline_item {
+      margin-bottom: 120px; } }
   .timeline_item p {
     margin-top: 10px; }
   .timeline_item .icon_wrapper {
     background: no-repeat right;
+    background-size: contain;
     height: 110px;
     width: 100%;
     -webkit-transition-duration: 0.75s;
@@ -180,12 +217,17 @@ a {
   background-image: url("../Images/Microservices_stamp_active.svg"); }
 
 .timeline {
-  height: 108%;
-  width: 12px;
+  height: calc(100% + 90px);
+  width: 6px;
   background-color: #CC1100;
   position: absolute;
-  top: -100px;
-  left: 116px; }
+  top: -65px;
+  left: 44px; }
+  @media (min-device-width: 768px) {
+    .timeline {
+      height: calc(100% + 120px);
+      top: -100px;
+      left: 116px; } }
 
 .project_container {
   background-color: #F7F7F7; }
