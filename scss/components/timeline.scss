@@ -1,9 +1,9 @@
 .timeline_item {
-  margin-bottom:30px;
+  margin-bottom: 30px;
   overflow: hidden;
 
   @media (min-device-width: $screen-sm-min) {
-    margin-bottom:120px;
+    margin-bottom: 60px;
   }
 
   p {
@@ -111,6 +111,6 @@
   @media (min-device-width: $screen-sm-min) {
     height: calc(100% + 120px);
     top: -100px;
-    left: 116px;
+    left: 120px;
   }
 }

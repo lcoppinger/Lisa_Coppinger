@@ -3,10 +3,12 @@
  */
 $(document).ready(function(){
 
+  EvenHeightHelper.makeEvenHeight('.text_wrapper');
+
   //timeline scroll animation
   $(window).scroll(function () {
     $(".timeline_item").each(function(){
-      var y = $(window).scrollTop() + 600;
+      var y = $(window).scrollTop() + 500;
       var z = $(this).offset().top;
 
       if (y >= z) {
