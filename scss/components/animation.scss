@@ -1,15 +1,4 @@
 //fadeIn for landing section
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -20,13 +9,10 @@
   }
 }
 
-.animated-fadeIn {
-  -webkit-animation-duration: 1s;
+.animated-fadein {
+  animation-delay: .5s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-animation-name: fadeIn;
+  animation-fill-mode: both;
   animation-name: fadeIn;
 }
 
@@ -44,14 +30,10 @@
   }
 }
 
-.animated-fadeInRight {
-  -webkit-animation-duration: 1s;
+.animated-fadeinright {
+  animation-delay: .5s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
@@ -69,53 +51,47 @@
   }
 }
 
-.animated-fadeInUp {
-  -webkit-animation-duration: 1.2s;
+.animated-fadeinup {
   animation-duration: 1.2s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
 //scroll to top
-.scrollToTop{
-	width:70px;
-	height:70px;
-	position:fixed;
-	bottom:40px;
-  border: 4px solid $border_title;
+.scrollToTop {
+  background: url('../Images/scrollToTop.svg') $background-inverse no-repeat 10px 20px;
+  background-size: initial;
+  border: 4px solid $border-title;
   border-radius: 50%;
-	right:40px;
-	display:none;
-	background: url('../Images/scrollToTop.svg') $background_inverse no-repeat 10px 20px;
-  background-size: initial;
-  -webkit-transition-duration: 0.75s;
-  transition-duration: 0.75s;
-  -webkit-transition-timing-function: ease;
+  bottom: 40px;
+  display: none;
+  height: 70px;
+  position: fixed;
+  right: 40px;
+  transition-duration: .75s;
   transition-timing-function: ease;
+  width: 70px;
 }
-.scrollToTop:hover{
-	text-decoration:none;
-  background: url('../Images/scrollToTop_active.svg') $background_button--hover no-repeat 10px 20px;
+
+.scrollToTop:hover {
+  background: url('../Images/scrollToTop_active.svg') $background-button--hover no-repeat 10px 20px;
   background-size: initial;
+  text-decoration: none;
 }
 
 .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-property: transform;
+  transform: translateZ(0);
+  transition-duration: .2s;
   transition-property: transform;
+  vertical-align: middle;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.2);
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
   transform: scale(1.2);
 }

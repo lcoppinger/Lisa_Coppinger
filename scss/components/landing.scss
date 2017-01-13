@@ -1,28 +1,29 @@
-.background_image {
+.background-image {
   position: absolute;
-  z-index: 1;
   width: 100%;
+  z-index: 1;
 }
 
 .landing {
-  background-color: $background_default;
+  background-color: $background-default;
 }
 
 .landing-highlight {
-  font-family: $regular__font-family__Lato;
+  font-family: $regular--font-family--lato;
 }
 
-.landing_wrapper {
+.landing-wrapper,
+%landing-wrapper {
   z-index: 2;
 }
 
-.image_wrapper {
-  @extend .landing_wrapper;
+.image-wrapper {
+  @extend %landing-wrapper;
   text-align: center;
 }
 
 .landing-image {
-  padding: 10px 0 50px 0;
+  padding: 10px 0 50px;
   width: 100%;
 
   @media (min-device-width: $screen-md-min) {

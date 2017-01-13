@@ -1,17 +1,17 @@
 .slide {
-  background: url("../Images/Slide_background.svg") no-repeat center;
+  background: url('../Images/Slide_background.svg') no-repeat center;
   background-size: cover;
   height: 250px;
 }
 
-.slide_text {
+.slide-text {
   @extend %slider-font;
-  color: $text_default;
+  color: $text-default;
 }
 
-.text_wrapper {
+.text-wrapper {
+  background: transparentize($background-inverse, .1);
   margin: 0 30px 30px 0;
-  background: transparentize($background_inverse, .1);
   padding: 15px;
 }
 

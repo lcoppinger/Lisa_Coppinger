@@ -1,4 +1,4 @@
-.timeline_item {
+.timeline-item {
   margin-bottom: 30px;
   overflow: hidden;
 
@@ -7,110 +7,104 @@
   }
 
   p {
+    @extend %base-font;
+    color: $text-default;
     margin-top: 10px;
   }
 
-  .icon_wrapper {
+  .icon-wrapper {
     background: no-repeat right;
     background-size: contain;
     height: 110px;
-    width: 100%;
-    -webkit-transition-duration: 0.75s;
-    transition-duration: 0.75s;
-    -webkit-transition-timing-function: ease;
+    transition-duration: .75s;
     transition-timing-function: ease;
+    width: 100%;
   }
 
   .animate {
-    -webkit-transition-duration: 0.75s;
-    transition-duration: 0.75s;
-    -webkit-transition-timing-function: ease;
+    transition-duration: .75s;
     transition-timing-function: ease;
   }
 
-  #DNA {
+  #dna {
     background-image: url('../Images/DNA_stamp.svg');
   }
 
-  #Coding {
+  #coding {
     background-image: url('../Images/Coding_stamp.svg');
   }
 
-  #Angular {
+  #angular {
     background-image: url('../Images/Angular_stamp.svg');
   }
 
-  #Drupal {
+  #drupal {
     background-image: url('../Images/Drupal_stamp.svg');
   }
 
-  #Agile {
+  #agile {
     background-image: url('../Images/Agile_stamp.svg');
   }
 
-  #Google {
+  #google {
     background-image: url('../Images/Google_stamp.svg');
   }
 
-  #React {
+  #react {
     background-image: url('../Images/React_stamp.svg');
   }
 
-  #Microservices {
+  #microservices {
     background-image: url('../Images/Microservices_stamp.svg');
   }
 
-  p {
-    @extend %base-font;
-    color: $text_default;
-  }
 }
 
 .active {
-  #DNA {
-    background-image: url('../Images/DNA_stamp_active.svg')
+  #dna {
+    background-image: url('../Images/DNA_stamp_active.svg');
   }
 
-  #Coding {
+  #coding {
     background-image: url('../Images/Coding_stamp_active.svg');
   }
 
-  #Angular {
+  #angular {
     background-image: url('../Images/Angular_stamp_active.svg');
   }
 
-  #Drupal {
+  #drupal {
     background-image: url('../Images/Drupal_stamp_active.svg');
   }
 
-  #Agile {
+  #agile {
     background-image: url('../Images/Agile_stamp_active.svg');
   }
 
-  #Google {
+  #google {
     background-image: url('../Images/Google_stamp_active.svg');
   }
 
-  #React {
+  #react {
     background-image: url('../Images/React_stamp_active.svg');
   }
 
-  #Microservices {
+  #microservices {
     background-image: url('../Images/Microservices_stamp_active.svg');
   }
 }
 
 .timeline {
+  background-color: $background-timeline;
   height: calc(100% + 90px);
-  width: 6px;
-  background-color: $background_timeline;
+  left: 44px;
   position: absolute;
   top: -65px;
-  left: 44px;
+  width: 6px;
 
   @media (min-device-width: $screen-sm-min) {
     height: calc(100% + 120px);
-    top: -100px;
     left: 120px;
+    top: -100px;
   }
 }

@@ -1,24 +1,24 @@
 
 //Palette
 
-$grey: #CCCCCC;
-$light_grey: #F7F7F7;
+$grey: #ccc;
+$light-grey: #f7f7f7;
 $black: #404040;
-$white: #FFFFFF;
-$highlight: #CC1100;
+$white: #fff;
+$highlight: #c10;
 
 //Text
-$text_default: $black;
-$text_inverse: $white;
-$text_highlight: $highlight;
+$text-default: $black;
+$text-inverse: $white;
+$text-highlight: $highlight;
 
 //Background
-$background_default: $light_grey;
-$background_inverse: $white;
-$background_timeline: $highlight;
-$background_tile--hover: $highlight;
-$background_button--hover: $highlight;
+$background-default: $light-grey;
+$background-inverse: $white;
+$background-timeline: $highlight;
+$background-tile--hover: $highlight;
+$background-button--hover: $highlight;
 
 //Border
-$border_title: $highlight;
-$border_button--inverse: 1px solid $white;
+$border-title: $highlight;
+$border-button--inverse: 1px solid $white;

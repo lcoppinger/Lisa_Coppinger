@@ -21,11 +21,11 @@ $tile-font-size--lg: $tile-font-size--md;
 
 
 //font-families
-$light__font-family__Lato: 'Lato-Light';
-$regular__font-family__Lato: 'Lato-Regular';
+$light--font-family--lato: 'Lato-Light';
+$regular--font-family--lato: 'Lato-Regular';
 
 %base-font {
-  font-family: $light__font-family__Lato;
+  font-family: $light--font-family--lato;
   font-size: $base-font-size--xs;
 
   @media (min-device-width: $screen-md-min) {
@@ -34,12 +34,12 @@ $regular__font-family__Lato: 'Lato-Regular';
 }
 
 %subtitle-font {
-  font-family: $regular__font-family__Lato;
+  font-family: $regular--font-family--lato;
   font-size: $subtitle-font-size--md;
 }
 
 %title-font {
-  font-family: $light__font-family__Lato;
+  font-family: $light--font-family--lato;
   font-size: $title-font-size--xs;
 
   @media (min-device-width: $screen-md-min) {
@@ -48,11 +48,11 @@ $regular__font-family__Lato: 'Lato-Regular';
 }
 
 %slider-font {
-  font-family: $light__font-family__Lato;
+  font-family: $light--font-family--lato;
   font-size: $slider-font-size--md;
 }
 
 %tile-font {
-  font-family: $light__font-family__Lato;
+  font-family: $light--font-family--lato;
   font-size: $tile-font-size--md;
 }

@@ -15,9 +15,10 @@
     }
   }
 }
+
 .landing-title {
   @extend %title-font;
-  color: $text_inverse;
+  color: $text-inverse;
   padding: 30px;
 
   @media (min-device-width: $screen-md-min) {
@@ -25,16 +26,17 @@
   }
 }
 
-.base_font {
+.base-font {
   @extend %base-font;
-  color: $text_default;
+  color: $text-default;
   margin-top: 0;
 }
 
 .landing-font {
   @extend %base-font;
-  color: $text_inverse;
+  color: $text-inverse;
   padding: 0 30px;
+
   @media (min-device-width: $screen-md-min) {
     padding: 0 50px;
   }
@@ -42,30 +44,30 @@
 
 .title {
   @extend %title-font;
-  color: $text_default;
+  color: $text-default;
   margin: 0;
 }
 
-.section_container {
-  margin-top: 50px;
+.section-container {
   margin-bottom: 20px;
+  margin-top: 50px;
   position: relative;
 }
 
-.section_title {
-  text-align: center;
-  position: relative;
+.section-title {
   margin-bottom: 90px;
+  position: relative;
+  text-align: center;
 
-  &:after {
+  &::after {
+    background-color: $border-title;
     content: '';
     display: block;
-    width: 50px;
     height: 6px;
-    background-color: $border_title;
+    left: 44%;
     margin-top: 26px;
     position: absolute;
-    left: 44%;
+    width: 50px;
 
     @media (min-device-width: $screen-md-min) {
       left: 48%;
@@ -73,50 +75,51 @@
   }
 }
 
-.sub_title {
+.sub-title {
   @extend %subtitle-font;
   color: $highlight;
   margin-top: 30px;
 }
 
-
-.button_inverse {
+.button-inverse {
   @extend %tile-font;
   background-color: transparent;
-  border: $border_button--inverse;
+  border: $border-button--inverse;
   border-radius: 30px;
-  color: $text_inverse;
-  padding: 10px 30px;
+  color: $text-inverse;
   margin-top: 15px;
-  -webkit-transition-duration: 0.75s;
-  transition-duration: 0.75s;
-  -webkit-transition-timing-function: ease;
+  padding: 10px 30px;
+  transition-duration: .75s;
   transition-timing-function: ease;
 
-  &:hover, :focus {
+  &:hover,
+  :focus {
+    background-color: $background-inverse;
+    color: $text-highlight;
     outline: none;
-    background-color: $background_inverse;
-    color: $text_highlight;
   }
 }
 
 a {
-  color: $text_highlight;
+  color: $text-highlight;
 
-  &:hover, :focus, :active {
+  &:hover,
+  :focus,
+  :active {
+    color: darken($text-highlight, 5%);
     text-decoration: none;
-    color: darken($text_highlight, 5%);
   }
 }
 
-.divider {
+.divider,
+%divider {
   img {
     width: 100%;
   }
 }
 
 .divider-inverse {
-  @extend .divider;
+  @extend %divider;
   margin-bottom: -10px;
 
   @media (min-device-width: $screen-sm-min) {
@@ -144,9 +147,9 @@ a {
   }
 }
 
-.graphic_wrapper {
-  text-align: center;
+.graphic-wrapper {
   padding: 20px 15px;
+  text-align: center;
 
   img {
     width: 100%;

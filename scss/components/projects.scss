@@ -1,7 +1,7 @@
-.project_container {
-  background-color: $background_default;
+.project-container {
+  background-color: $background-default;
 
-  .section_container {
+  .section-container {
     margin-top: 100px;
   }
 
@@ -9,24 +9,21 @@
     position: relative;
   }
 
-  .base_font {
+  .base-font {
     text-align: center;
   }
 }
 
 .tile {
+  background-color: $background-default;
   height: 280px;
-  background-color: $background_default;
-  text-align: center;
   margin: 0 auto;
-  position: relative;
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
   perspective: 600px;
+  text-align: center;
 
   h4 {
     @extend %base-font;
-    color: $text_default;
+    color: $text-default;
     margin-top: 50px;
   }
 
@@ -36,55 +33,41 @@
 }
 
 .tile .front {
-  position: absolute;
-  top: 0;
-  z-index: 900;
-  width: 100%;
+  backface-visibility: hidden;
+  background-color: $background-inverse;
   height: 100%;
-  text-align: center;
   padding: 30px;
-  background-color: $background_inverse;
-  -webkit-transform: rotateX(0deg) rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-  -moz-transform: rotateX(0deg) rotateY(0deg);
-  -moz-transform-style: preserve-3d;
-  -moz-backface-visibility: hidden;
-  -ms-transition: all .75s ease-in-out;
-  -moz-transition: all .75s ease-in-out;
-  -webkit-transition: all .75s ease-in-out;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
   transition: all .75s ease-in-out;
+  width: 100%;
+  z-index: 900;
 }
 
 .tile.flip .front {
-    z-index: 900;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: 900;
 }
 
 .tile .back {
-    position: absolute;
-    top: 0;
-    z-index: 800;
-    width: 100%;
-    height: 100%;
-    background-color: $background_tile--hover;
-    -webkit-transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
-    -moz-transform: rotateY(-180deg);
-    -moz-transform-style: preserve-3d;
-    -moz-backface-visibility: hidden;
-    -ms-transition: all .75s ease-in-out;
-    -moz-transition: all .75s ease-in-out;
-    -webkit-transition: all .75s ease-in-out;
-    transition: all .75s ease-in-out;
+  backface-visibility: hidden;
+  background-color: $background-tile--hover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+  transition: all .75s ease-in-out;
+  width: 100%;
+  z-index: 800;
 }
 
 .tile.flip .back {
-    z-index: 1000;
-    -webkit-transform: rotateX(0deg) rotateY(0deg);
-    -moz-transform: rotateX(0deg) rotateY(0deg);
+  transform: rotateX(0deg) rotateY(0deg);
+  z-index: 1000;
 }
 
 .sass {
@@ -95,11 +78,11 @@
 
 .description {
   @extend %tile-font;
-  color: $text_inverse;
+  color: $text-inverse;
   padding: 15px;
   text-align: center;
 }
 
-.tile_wrapper {
+.tile-wrapper {
   margin: 20px 0;
 }
